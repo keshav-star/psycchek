@@ -1,38 +1,90 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.quiz{
   text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.navbar{
+  opacity: 0.8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left{
+  width: 17%;
+  padding: 1rem;
+  border-right: 5px solid grey;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-group-item:hover{
+  background:linear-gradient(to bottom,rgb(84, 84, 119),white);
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.accordion-item{
+  margin: .1rem;
+}
+.sect{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 3.5rem;
+}
+.left Button{
+  background-color: black;
+
+}
+.right{
+  width: 70%;
+  margin: 50px auto; 
+}
+.cards{
+  display: flex;
+}
+.card{
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 23rem;
+  height: 20rem;
+  opacity:0.7;
+}
+.card-title{
+  color: red;
+}
+.questions h1{
+  background-color: rgba(29, 138, 168, 0.7);
+  border-radius: 1.3rem;
+  padding: .5rem;
+}
+.qncard{
   color: white;
+  background: linear-gradient(to bottom right,rgb(109, 117, 220),white);
+  /* background-color: rgb(249, 33, 33,0.8); */
+  border-radius: 1rem;
+  padding: 2rem;
 }
-
-.App-link {
-  color: #61dafb;
+.qn{
+  background-color: rgb(99, 67, 149);
+  border-radius: 1rem;
 }
+.qncard ul{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 4rem auto;
+}
+.qncard li{
+  list-style: none;
+  padding: .6rem;
+  margin: 2px;
+  width: 16rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+  background-color: rgb(99, 67, 149);
+}
+.qncard li:hover{
+  background-color: rgb(70, 47, 108);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
