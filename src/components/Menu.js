@@ -24,7 +24,7 @@ export default function Menu() {
             </Offcanvas.Header>
             <Offcanvas.Body>
               <Nav className="justify-content-center flex-grow-1 pe-3">
-                <LinkContainer to="/">
+                <LinkContainer to="/psycchek">
                   <Nav.Link>  Home</Nav.Link>
                 </LinkContainer>
                 <LinkContainer to="/showappt">
