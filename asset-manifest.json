@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/psycchek/static/css/main.be8fb442.css",
-    "main.js": "/psycchek/static/js/main.9f4e33d6.js",
+    "main.js": "/psycchek/static/js/main.8cf28884.js",
     "static/media/bg.jpg": "/psycchek/static/media/bg.8dded9b3ad4015f20391.jpg",
     "index.html": "/psycchek/index.html",
     "main.be8fb442.css.map": "/psycchek/static/css/main.be8fb442.css.map",
-    "main.9f4e33d6.js.map": "/psycchek/static/js/main.9f4e33d6.js.map"
+    "main.8cf28884.js.map": "/psycchek/static/js/main.8cf28884.js.map"
   },
   "entrypoints": [
     "static/css/main.be8fb442.css",
-    "static/js/main.9f4e33d6.js"
+    "static/js/main.8cf28884.js"
   ]
 }
