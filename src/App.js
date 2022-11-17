@@ -1,6 +1,6 @@
 import './App.css';
 import Welcome from './components/Welcome'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Quiz from './components/Quiz';
 import Menu from './components/Menu';
 import Appointment from './components/Appointment';
@@ -10,7 +10,7 @@ import Usefullinks from './components/Usefullinks';
 function App() {
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Menu />
       <div className="sect">
         <div className="left">
@@ -18,15 +18,15 @@ function App() {
         </div>
         <div className='right '>
           <Routes>
-            <Route path='/psycchek' element={<Welcome />} />
-            <Route path="/psycchek/quiz" element={<Quiz />} />
-            <Route path="/psycchek/appointment" element={<Appointment />} />
-            <Route path="/psycchek/about" element={<About />} />
+            <Route path='/' element={<Welcome />} />
+            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/appointment" element={<Appointment />} />
+            <Route path="/about" element={<About />} />
           </Routes>
 
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
