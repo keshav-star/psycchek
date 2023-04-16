@@ -5,6 +5,8 @@ export default function Usefullinks() {
   return (
     <>
         <h2>Useful Links</h2>
+  <div id="google_translate_element"></div>
+
         <ListGroup >
             <ListGroup.Item onClick={(e) => {
               e.preventDefault();

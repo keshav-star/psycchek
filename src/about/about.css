@@ -5,6 +5,7 @@
     font-size: 1.2rem;
     text-decoration: none;
     font-family: sans-serif;
+    user-select: none;    
 }
 
 .container {
